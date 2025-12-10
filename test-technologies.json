@@ -1,0 +1,72 @@
+[
+  {
+    "id": 201,
+    "title": "React Testing Library",
+    "description": "Библиотека для тестирования React компонентов с фокусом на пользовательский опыт",
+    "status": "not-started",
+    "notes": "Изучить основные принципы и лучшие практики",
+    "category": "frontend",
+    "difficulty": "intermediate",
+    "deadline": "2025-01-15",
+    "resources": [
+      "https://testing-library.com/docs/react-testing-library/intro/",
+      "https://kentcdodds.com/blog/common-mistakes-with-react-testing-library"
+    ]
+  },
+  {
+    "id": 202,
+    "title": "TypeScript",
+    "description": "Типизированный JavaScript для больших приложений",
+    "status": "in-progress",
+    "notes": "Разобраться с advanced types и generics",
+    "category": "frontend",
+    "difficulty": "advanced",
+    "deadline": "2025-02-01",
+    "resources": [
+      "https://www.typescriptlang.org/docs/",
+      "https://github.com/type-challenges/type-challenges"
+    ]
+  },
+  {
+    "id": 203,
+    "title": "Redis",
+    "description": "In-memory структура данных для кеширования и очередей",
+    "status": "completed",
+    "notes": "Освоил основы, нужно изучить Redis Streams",
+    "category": "database",
+    "difficulty": "intermediate",
+    "deadline": "",
+    "resources": [
+      "https://redis.io/docs/",
+      "https://university.redis.com/"
+    ]
+  },
+  {
+    "id": 204,
+    "title": "Kubernetes",
+    "description": "Оркестрация контейнеров для масштабируемых приложений",
+    "status": "not-started",
+    "notes": "",
+    "category": "devops",
+    "difficulty": "advanced",
+    "deadline": "2025-03-01",
+    "resources": [
+      "https://kubernetes.io/docs/tutorials/",
+      "https://www.cncf.io/certification/cka/"
+    ]
+  },
+  {
+    "id": 205,
+    "title": "Tailwind CSS",
+    "description": "Utility-first CSS фреймворк для быстрой разработки UI",
+    "status": "in-progress",
+    "notes": "Изучаю компонентный подход и кастомизацию",
+    "category": "frontend",
+    "difficulty": "beginner",
+    "deadline": "2025-01-10",
+    "resources": [
+      "https://tailwindcss.com/docs",
+      "https://tailwindui.com/components"
+    ]
+  }
+]

@@ -1,0 +1,36 @@
+export const defaultTechnologies = [
+  {
+    id: 1,
+    title: 'React',
+    description: 'Библиотека для создания пользовательских интерфейсов.',
+    status: 'in-progress',
+    notes: 'Повторить хуки и контекст.',
+    category: 'frontend',
+    difficulty: 'intermediate',
+    deadline: '',
+    resources: ['https://react.dev/learn'],
+  },
+  {
+    id: 2,
+    title: 'Node.js',
+    description: 'Серверный JavaScript runtime на базе V8.',
+    status: 'not-started',
+    notes: '',
+    category: 'backend',
+    difficulty: 'intermediate',
+    deadline: '',
+    resources: ['https://nodejs.org/en/docs'],
+  },
+  {
+    id: 3,
+    title: 'PostgreSQL',
+    description: 'Реляционная база данных с открытым исходным кодом.',
+    status: 'completed',
+    notes: 'Разобраться с репликацией.',
+    category: 'database',
+    difficulty: 'beginner',
+    deadline: '',
+    resources: ['https://www.postgresql.org/docs/'],
+  },
+];
+

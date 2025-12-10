@@ -1,0 +1,6 @@
+{
+  "invalid": "this is not an array",
+  "technologies": [
+    {"title": "test"}
+  ]
+}

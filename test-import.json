@@ -1,0 +1,27 @@
+[
+  {
+    "id": 999,
+    "title": "Тестовая технология",
+    "description": "Это тестовая технология для проверки импорта",
+    "status": "not-started",
+    "notes": "Тестовые заметки",
+    "category": "frontend",
+    "difficulty": "beginner",
+    "deadline": "2025-01-15",
+    "resources": [
+      "https://example.com/test1",
+      "https://example.com/test2"
+    ]
+  },
+  {
+    "id": 1000,
+    "title": "Вторая тестовая технология",
+    "description": "Еще одна технология для тестирования",
+    "status": "in-progress",
+    "notes": "",
+    "category": "backend",
+    "difficulty": "intermediate",
+    "deadline": "",
+    "resources": []
+  }
+]

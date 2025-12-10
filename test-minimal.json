@@ -1,0 +1,19 @@
+[
+  {
+    "title": "Vue.js",
+    "description": "Прогрессивный JavaScript фреймворк"
+  },
+  {
+    "title": "MongoDB",
+    "description": "NoSQL база данных",
+    "category": "database",
+    "status": "in-progress"
+  },
+  {
+    "title": "AWS Lambda",
+    "description": "Serverless функции в облаке",
+    "category": "cloud",
+    "difficulty": "advanced",
+    "resources": ["https://aws.amazon.com/lambda/"]
+  }
+]
