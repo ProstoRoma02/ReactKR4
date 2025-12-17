@@ -6,9 +6,11 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "build:docs": "vite build --outDir docs",
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist -b gh-pages",
+    "deploy:docs": "npm run build:docs && git add docs && git commit -m 'Update docs' && git push",
     "deploy:auto": "node deploy.js"
   },
   "dependencies": {
