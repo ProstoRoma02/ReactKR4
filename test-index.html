@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test - Technology Tracker</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #1a1a2e;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 40px;
+            background: rgba(255,255,255,0.1);
+            border-radius: 20px;
+        }
+        .status {
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            background: rgba(0,255,0,0.2);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 Technology Tracker</h1>
+        <div class="status">✅ Статический HTML работает</div>
+        <div class="status">🔧 Проверяем загрузку ресурсов...</div>
+        
+        <div id="root">
+            <p>Загрузка React приложения...</p>
+        </div>
+        
+        <script>
+            console.log('Test page loaded successfully');
+            console.log('Base URL:', window.location.href);
+            console.log('Current path:', window.location.pathname);
+        </script>
+    </div>
+</body>
+</html>
