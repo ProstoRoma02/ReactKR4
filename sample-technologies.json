@@ -1,0 +1,59 @@
+[
+  {
+    "id": 101,
+    "title": "Next.js",
+    "description": "Фреймворк React для рендеринга на сервере, маршрутизации и оптимизации производительности.",
+    "status": "in-progress",
+    "notes": "Докончить раздел про App Router и server actions.",
+    "category": "frontend",
+    "difficulty": "advanced",
+    "deadline": "2025-01-20",
+    "resources": [
+      "https://nextjs.org/learn",
+      "https://nextjs.org/docs/app"
+    ]
+  },
+  {
+    "id": 102,
+    "title": "GraphQL",
+    "description": "Способ описания API с типизированными схемами и гибкими запросами.",
+    "status": "not-started",
+    "notes": "",
+    "category": "backend",
+    "difficulty": "intermediate",
+    "deadline": "",
+    "resources": [
+      "https://graphql.org/learn/",
+      "https://www.apollographql.com/docs/"
+    ]
+  },
+  {
+    "id": 103,
+    "title": "Docker",
+    "description": "Контейнеризация и упаковка приложений для воспроизводимой среды.",
+    "status": "completed",
+    "notes": "Нужно прокачать best practices по multi-stage сборкам.",
+    "category": "devops",
+    "difficulty": "intermediate",
+    "deadline": "",
+    "resources": [
+      "https://docs.docker.com/get-started/overview/",
+      "https://docker-curriculum.com"
+    ]
+  },
+  {
+    "id": 104,
+    "title": "Supabase",
+    "description": "Backend-as-a-service: Postgres, Auth, Storage и Edge Functions.",
+    "status": "not-started",
+    "notes": "Проверить ограничения бесплатного тарифа.",
+    "category": "database",
+    "difficulty": "beginner",
+    "deadline": "2025-02-10",
+    "resources": [
+      "https://supabase.com/docs",
+      "https://supabase.com/docs/guides/getting-started"
+    ]
+  }
+]
+
